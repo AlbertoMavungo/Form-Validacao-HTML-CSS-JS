@@ -1,0 +1,87 @@
+.corpo{
+    display: flex;
+    height: 402px;
+    width: 800px;
+    background-image: url(.//image/bg-repeat.jpg);
+    margin:200px auto auto auto;
+    align-items: center;
+}
+
+.informacao{
+   color: #FFFFFF;
+   margin-left: 50px;
+   margin-right: 50px;
+   width: 350px;
+}
+.informacao .titulo{
+    font-weight: 900;
+    margin-left: 1px;
+    width: 100%;
+}
+
+.informacao .texto{
+    font-weight: 400;
+    width: 100%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 340px;
+    height: 378px;
+    background-color:  #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario .elemento{
+    width: 298.01px;
+    height: 35.11px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    line-height: 17.58px;
+}
+
+.formulario .elemento::placeholder{
+    color: #A8A8A8;
+}
+
+.formulario .mensagem{
+    height: 100px;
+}
+.formulario .obrigatorio{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    margin-right:145px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.formulario .botao{
+    width: 298.01px;
+    color: #FFFFFF;
+    background-color:#3CCC87 ;
+    border-style: none;
+    height: 41.13px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+.campo-preenchido{
+    border-color:#00C22B;
+}
+
+.campo-nao-preenchido{
+    border-color:#F52E2E;
+}
+
+.mensagem-erro {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
