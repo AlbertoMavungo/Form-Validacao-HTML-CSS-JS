@@ -10,7 +10,7 @@ Um mini projeto com intuito de treinar JS, HTML e CSS junto, criando um formulá
 
 1 - clone para o projeto
 ```
-git clone
+git clone https://github.com/AlbertoMavungo/Form-Validacao-HTML-CSS-JS.git
 ```
 
 2 - Acesse a pasta do projeto
